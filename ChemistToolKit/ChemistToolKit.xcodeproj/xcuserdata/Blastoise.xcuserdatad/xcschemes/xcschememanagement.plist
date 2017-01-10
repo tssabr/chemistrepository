@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ChemistToolKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>D2AF28841E2461D300BEF680</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D2AF289B1E2461D300BEF680</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D2AF28A61E2461D400BEF680</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2AF28891E2461D300BEF680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF28881E2461D300BEF680 /* AppDelegate.swift */; };
+		D2AF288B1E2461D300BEF680 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF288A1E2461D300BEF680 /* ViewController.swift */; };
+		D2AF288E1E2461D300BEF680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AF288C1E2461D300BEF680 /* Main.storyboard */; };
+		D2AF28911E2461D300BEF680 /* ChemistToolKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2AF288F1E2461D300BEF680 /* ChemistToolKit.xcdatamodeld */; };
+		D2AF28931E2461D300BEF680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2AF28921E2461D300BEF680 /* Assets.xcassets */; };
+		D2AF28961E2461D300BEF680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AF28941E2461D300BEF680 /* LaunchScreen.storyboard */; };
+		D2AF28A11E2461D300BEF680 /* ChemistToolKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF28A01E2461D300BEF680 /* ChemistToolKitTests.swift */; };
+		D2AF28AC1E2461D400BEF680 /* ChemistToolKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF28AB1E2461D400BEF680 /* ChemistToolKitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2AF289D1E2461D300BEF680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2AF287D1E2461D300BEF680 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AF28841E2461D300BEF680;
+			remoteInfo = ChemistToolKit;
+		};
+		D2AF28A81E2461D400BEF680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2AF287D1E2461D300BEF680 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AF28841E2461D300BEF680;
+			remoteInfo = ChemistToolKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2AF28851E2461D300BEF680 /* ChemistToolKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChemistToolKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AF28881E2461D300BEF680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2AF288A1E2461D300BEF680 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2AF288D1E2461D300BEF680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2AF28901E2461D300BEF680 /* ChemistToolKit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChemistToolKit.xcdatamodel; sourceTree = "<group>"; };
+		D2AF28921E2461D300BEF680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2AF28951E2461D300BEF680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2AF28971E2461D300BEF680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2AF289C1E2461D300BEF680 /* ChemistToolKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChemistToolKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AF28A01E2461D300BEF680 /* ChemistToolKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemistToolKitTests.swift; sourceTree = "<group>"; };
+		D2AF28A21E2461D300BEF680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2AF28A71E2461D400BEF680 /* ChemistToolKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChemistToolKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AF28AB1E2461D400BEF680 /* ChemistToolKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemistToolKitUITests.swift; sourceTree = "<group>"; };
+		D2AF28AD1E2461D400BEF680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AF28821E2461D300BEF680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AF28991E2461D300BEF680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AF28A41E2461D400BEF680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2AF287C1E2461D300BEF680 = {
+			isa = PBXGroup;
+			children = (
+				D2AF28871E2461D300BEF680 /* ChemistToolKit */,
+				D2AF289F1E2461D300BEF680 /* ChemistToolKitTests */,
+				D2AF28AA1E2461D400BEF680 /* ChemistToolKitUITests */,
+				D2AF28861E2461D300BEF680 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2AF28861E2461D300BEF680 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AF28851E2461D300BEF680 /* ChemistToolKit.app */,
+				D2AF289C1E2461D300BEF680 /* ChemistToolKitTests.xctest */,
+				D2AF28A71E2461D400BEF680 /* ChemistToolKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2AF28871E2461D300BEF680 /* ChemistToolKit */ = {
+			isa = PBXGroup;
+			children = (
+				D2AF28881E2461D300BEF680 /* AppDelegate.swift */,
+				D2AF288A1E2461D300BEF680 /* ViewController.swift */,
+				D2AF288C1E2461D300BEF680 /* Main.storyboard */,
+				D2AF28921E2461D300BEF680 /* Assets.xcassets */,
+				D2AF28941E2461D300BEF680 /* LaunchScreen.storyboard */,
+				D2AF28971E2461D300BEF680 /* Info.plist */,
+				D2AF288F1E2461D300BEF680 /* ChemistToolKit.xcdatamodeld */,
+			);
+			path = ChemistToolKit;
+			sourceTree = "<group>";
+		};
+		D2AF289F1E2461D300BEF680 /* ChemistToolKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2AF28A01E2461D300BEF680 /* ChemistToolKitTests.swift */,
+				D2AF28A21E2461D300BEF680 /* Info.plist */,
+			);
+			path = ChemistToolKitTests;
+			sourceTree = "<group>";
+		};
+		D2AF28AA1E2461D400BEF680 /* ChemistToolKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2AF28AB1E2461D400BEF680 /* ChemistToolKitUITests.swift */,
+				D2AF28AD1E2461D400BEF680 /* Info.plist */,
+			);
+			path = ChemistToolKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2AF28841E2461D300BEF680 /* ChemistToolKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2AF28B01E2461D400BEF680 /* Build configuration list for PBXNativeTarget "ChemistToolKit" */;
+			buildPhases = (
+				D2AF28811E2461D300BEF680 /* Sources */,
+				D2AF28821E2461D300BEF680 /* Frameworks */,
+				D2AF28831E2461D300BEF680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChemistToolKit;
+			productName = ChemistToolKit;
+			productReference = D2AF28851E2461D300BEF680 /* ChemistToolKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2AF289B1E2461D300BEF680 /* ChemistToolKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2AF28B31E2461D400BEF680 /* Build configuration list for PBXNativeTarget "ChemistToolKitTests" */;
+			buildPhases = (
+				D2AF28981E2461D300BEF680 /* Sources */,
+				D2AF28991E2461D300BEF680 /* Frameworks */,
+				D2AF289A1E2461D300BEF680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2AF289E1E2461D300BEF680 /* PBXTargetDependency */,
+			);
+			name = ChemistToolKitTests;
+			productName = ChemistToolKitTests;
+			productReference = D2AF289C1E2461D300BEF680 /* ChemistToolKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2AF28A61E2461D400BEF680 /* ChemistToolKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2AF28B61E2461D400BEF680 /* Build configuration list for PBXNativeTarget "ChemistToolKitUITests" */;
+			buildPhases = (
+				D2AF28A31E2461D400BEF680 /* Sources */,
+				D2AF28A41E2461D400BEF680 /* Frameworks */,
+				D2AF28A51E2461D400BEF680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2AF28A91E2461D400BEF680 /* PBXTargetDependency */,
+			);
+			name = ChemistToolKitUITests;
+			productName = ChemistToolKitUITests;
+			productReference = D2AF28A71E2461D400BEF680 /* ChemistToolKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2AF287D1E2461D300BEF680 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = IamAdamRibblett;
+				TargetAttributes = {
+					D2AF28841E2461D300BEF680 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W59MJH2E9L;
+						ProvisioningStyle = Automatic;
+					};
+					D2AF289B1E2461D300BEF680 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W59MJH2E9L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2AF28841E2461D300BEF680;
+					};
+					D2AF28A61E2461D400BEF680 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W59MJH2E9L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D2AF28841E2461D300BEF680;
+					};
+				};
+			};
+			buildConfigurationList = D2AF28801E2461D300BEF680 /* Build configuration list for PBXProject "ChemistToolKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2AF287C1E2461D300BEF680;
+			productRefGroup = D2AF28861E2461D300BEF680 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AF28841E2461D300BEF680 /* ChemistToolKit */,
+				D2AF289B1E2461D300BEF680 /* ChemistToolKitTests */,
+				D2AF28A61E2461D400BEF680 /* ChemistToolKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2AF28831E2461D300BEF680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AF28961E2461D300BEF680 /* LaunchScreen.storyboard in Resources */,
+				D2AF28931E2461D300BEF680 /* Assets.xcassets in Resources */,
+				D2AF288E1E2461D300BEF680 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AF289A1E2461D300BEF680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AF28A51E2461D400BEF680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AF28811E2461D300BEF680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AF288B1E2461D300BEF680 /* ViewController.swift in Sources */,
+				D2AF28891E2461D300BEF680 /* AppDelegate.swift in Sources */,
+				D2AF28911E2461D300BEF680 /* ChemistToolKit.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AF28981E2461D300BEF680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AF28A11E2461D300BEF680 /* ChemistToolKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AF28A31E2461D400BEF680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AF28AC1E2461D400BEF680 /* ChemistToolKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2AF289E1E2461D300BEF680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AF28841E2461D300BEF680 /* ChemistToolKit */;
+			targetProxy = D2AF289D1E2461D300BEF680 /* PBXContainerItemProxy */;
+		};
+		D2AF28A91E2461D400BEF680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AF28841E2461D300BEF680 /* ChemistToolKit */;
+			targetProxy = D2AF28A81E2461D400BEF680 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2AF288C1E2461D300BEF680 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2AF288D1E2461D300BEF680 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2AF28941E2461D300BEF680 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2AF28951E2461D300BEF680 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2AF28AE1E2461D400BEF680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2AF28AF1E2461D400BEF680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2AF28B11E2461D400BEF680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W59MJH2E9L;
+				INFOPLIST_FILE = ChemistToolKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamribblett.ChemistToolKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D2AF28B21E2461D400BEF680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W59MJH2E9L;
+				INFOPLIST_FILE = ChemistToolKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamribblett.ChemistToolKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D2AF28B41E2461D400BEF680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W59MJH2E9L;
+				INFOPLIST_FILE = ChemistToolKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamribblett.ChemistToolKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChemistToolKit.app/ChemistToolKit";
+			};
+			name = Debug;
+		};
+		D2AF28B51E2461D400BEF680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W59MJH2E9L;
+				INFOPLIST_FILE = ChemistToolKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamribblett.ChemistToolKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChemistToolKit.app/ChemistToolKit";
+			};
+			name = Release;
+		};
+		D2AF28B71E2461D400BEF680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W59MJH2E9L;
+				INFOPLIST_FILE = ChemistToolKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamribblett.ChemistToolKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ChemistToolKit;
+			};
+			name = Debug;
+		};
+		D2AF28B81E2461D400BEF680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W59MJH2E9L;
+				INFOPLIST_FILE = ChemistToolKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamribblett.ChemistToolKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ChemistToolKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2AF28801E2461D300BEF680 /* Build configuration list for PBXProject "ChemistToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2AF28AE1E2461D400BEF680 /* Debug */,
+				D2AF28AF1E2461D400BEF680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2AF28B01E2461D400BEF680 /* Build configuration list for PBXNativeTarget "ChemistToolKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2AF28B11E2461D400BEF680 /* Debug */,
+				D2AF28B21E2461D400BEF680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2AF28B31E2461D400BEF680 /* Build configuration list for PBXNativeTarget "ChemistToolKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2AF28B41E2461D400BEF680 /* Debug */,
+				D2AF28B51E2461D400BEF680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2AF28B61E2461D400BEF680 /* Build configuration list for PBXNativeTarget "ChemistToolKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2AF28B71E2461D400BEF680 /* Debug */,
+				D2AF28B81E2461D400BEF680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D2AF288F1E2461D300BEF680 /* ChemistToolKit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D2AF28901E2461D300BEF680 /* ChemistToolKit.xcdatamodel */,
+			);
+			currentVersion = D2AF28901E2461D300BEF680 /* ChemistToolKit.xcdatamodel */;
+			path = ChemistToolKit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D2AF287D1E2461D300BEF680 /* Project object */;
+}
