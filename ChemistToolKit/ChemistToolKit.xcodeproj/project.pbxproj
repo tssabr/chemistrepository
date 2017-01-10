@@ -15,6 +15,8 @@
 		D2AF28961E2461D300BEF680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AF28941E2461D300BEF680 /* LaunchScreen.storyboard */; };
 		D2AF28A11E2461D300BEF680 /* ChemistToolKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF28A01E2461D300BEF680 /* ChemistToolKitTests.swift */; };
 		D2AF28AC1E2461D400BEF680 /* ChemistToolKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF28AB1E2461D400BEF680 /* ChemistToolKitUITests.swift */; };
+		D2AF28BA1E24671900BEF680 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF28B91E24671900BEF680 /* csv.swift */; };
+		D2AF28BD1E24673D00BEF680 /* ptdata2.csv in Resources */ = {isa = PBXBuildFile; fileRef = D2AF28BC1E24673D00BEF680 /* ptdata2.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D2AF28A71E2461D400BEF680 /* ChemistToolKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChemistToolKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AF28AB1E2461D400BEF680 /* ChemistToolKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemistToolKitUITests.swift; sourceTree = "<group>"; };
 		D2AF28AD1E2461D400BEF680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2AF28B91E24671900BEF680 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		D2AF28BC1E24673D00BEF680 /* ptdata2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ptdata2.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		D2AF28871E2461D300BEF680 /* ChemistToolKit */ = {
 			isa = PBXGroup;
 			children = (
+				D2AF28BB1E24671F00BEF680 /* resources */,
 				D2AF28881E2461D300BEF680 /* AppDelegate.swift */,
 				D2AF288A1E2461D300BEF680 /* ViewController.swift */,
 				D2AF288C1E2461D300BEF680 /* Main.storyboard */,
@@ -126,6 +131,15 @@
 				D2AF28AD1E2461D400BEF680 /* Info.plist */,
 			);
 			path = ChemistToolKitUITests;
+			sourceTree = "<group>";
+		};
+		D2AF28BB1E24671F00BEF680 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				D2AF28B91E24671900BEF680 /* csv.swift */,
+				D2AF28BC1E24673D00BEF680 /* ptdata2.csv */,
+			);
+			name = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,17 +211,20 @@
 					D2AF28841E2461D300BEF680 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = W59MJH2E9L;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					D2AF289B1E2461D300BEF680 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = W59MJH2E9L;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = D2AF28841E2461D300BEF680;
 					};
 					D2AF28A61E2461D400BEF680 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = W59MJH2E9L;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = D2AF28841E2461D300BEF680;
 					};
@@ -239,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2AF28961E2461D300BEF680 /* LaunchScreen.storyboard in Resources */,
+				D2AF28BD1E24673D00BEF680 /* ptdata2.csv in Resources */,
 				D2AF28931E2461D300BEF680 /* Assets.xcassets in Resources */,
 				D2AF288E1E2461D300BEF680 /* Main.storyboard in Resources */,
 			);
@@ -265,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2AF28BA1E24671900BEF680 /* csv.swift in Sources */,
 				D2AF288B1E2461D300BEF680 /* ViewController.swift in Sources */,
 				D2AF28891E2461D300BEF680 /* AppDelegate.swift in Sources */,
 				D2AF28911E2461D300BEF680 /* ChemistToolKit.xcdatamodeld in Sources */,
