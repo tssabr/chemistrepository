@@ -16,9 +16,9 @@
 		D2AF28A11E2461D300BEF680 /* ChemistToolKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF28A01E2461D300BEF680 /* ChemistToolKitTests.swift */; };
 		D2AF28AC1E2461D400BEF680 /* ChemistToolKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF28AB1E2461D400BEF680 /* ChemistToolKitUITests.swift */; };
 		D2AF28BA1E24671900BEF680 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF28B91E24671900BEF680 /* csv.swift */; };
-		D2AF28BD1E24673D00BEF680 /* ptdata2.csv in Resources */ = {isa = PBXBuildFile; fileRef = D2AF28BC1E24673D00BEF680 /* ptdata2.csv */; };
 		D2AF28C61E246B0200BEF680 /* periodicTableOfElementsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF28C51E246B0200BEF680 /* periodicTableOfElementsData.swift */; };
 		D2AF28C81E246DD000BEF680 /* element.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF28C71E246DD000BEF680 /* element.swift */; };
+		D2AF28CA1E24887200BEF680 /* ptdata2.csv in Resources */ = {isa = PBXBuildFile; fileRef = D2AF28C91E24887200BEF680 /* ptdata2.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +54,9 @@
 		D2AF28AB1E2461D400BEF680 /* ChemistToolKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemistToolKitUITests.swift; sourceTree = "<group>"; };
 		D2AF28AD1E2461D400BEF680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2AF28B91E24671900BEF680 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
-		D2AF28BC1E24673D00BEF680 /* ptdata2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ptdata2.csv; sourceTree = "<group>"; };
 		D2AF28C51E246B0200BEF680 /* periodicTableOfElementsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = periodicTableOfElementsData.swift; sourceTree = "<group>"; };
 		D2AF28C71E246DD000BEF680 /* element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = element.swift; sourceTree = "<group>"; };
+		D2AF28C91E24887200BEF680 /* ptdata2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ptdata2.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				D2AF28B91E24671900BEF680 /* csv.swift */,
-				D2AF28BC1E24673D00BEF680 /* ptdata2.csv */,
+				D2AF28C91E24887200BEF680 /* ptdata2.csv */,
 			);
 			name = resources;
 			sourceTree = "<group>";
@@ -278,7 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2AF28961E2461D300BEF680 /* LaunchScreen.storyboard in Resources */,
-				D2AF28BD1E24673D00BEF680 /* ptdata2.csv in Resources */,
+				D2AF28CA1E24887200BEF680 /* ptdata2.csv in Resources */,
 				D2AF28931E2461D300BEF680 /* Assets.xcassets in Resources */,
 				D2AF288E1E2461D300BEF680 /* Main.storyboard in Resources */,
 			);
