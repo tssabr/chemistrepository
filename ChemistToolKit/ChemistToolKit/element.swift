@@ -93,7 +93,25 @@ struct element {
     }
     //atomicNumber, symbol, name, atomicMass, cpkColorHex, electronConfiguration, electronegativityPauling, atomicRadiusPM, ionRadiusInPM, vanderWaalsRadiusInPM, IE-1inkJ/mol, EAinkJ/mol, oxidationStates, standardStates, bondingType, meltingPointInK, boilingPointInK, densityIng/mL, metalorNonmetal, yearDiscovered
     init(atomicNumber: Int, symbol: String, name: String, atomicMass: NSString, cpk: String, elecCon: String, elecNeg: NSString, atomicRad: NSString, ionRadius: NSString, vanderWaals: NSString, IE1: NSString, EAi: NSString, standard: String, bonding: String, meltingPoint: NSString, boilingPoint: NSString, density: NSString, metalNonMetal: String, year: String) {
-        
+        self._atomicNumber = atomicNumber
+        self._symbol = symbol
+        self._name = name
+        self._atomicMass = atomicMass
+        self._cpkColorHex = cpk
+        self._electronConfiguration = elecCon
+        self._electronegativityPauling = elecNeg
+        self._atomicRadiusPM = atomicRad
+        self._ionRadiusInPM = ionRadius
+        self._vanderWaalsRadiusInPM = vanderWaals
+        self._IE1inkJmol = IE1
+        self._EAinkJmol = EAi
+        self._standardStates = standard
+        self._bondingType = bonding
+        self._meltingPointInK = meltingPoint
+        self._boilingPointInK = boilingPoint
+        self._densityIngmL = density
+        self._metalorNonmetal = metalNonMetal
+        self._yearDiscovered = year
     }
     
 }
