@@ -15,7 +15,7 @@ class elements {
     var elementArray: Array<element> = []
     
     func loadElements() {
-        let path = Bundle.main.path(forResource: "ptdata2", ofType: "csv")!
+        let path = Bundle.main.path(forResource: "ptdatanospaces", ofType: "csv")!
         
         do {
             
@@ -29,9 +29,9 @@ class elements {
                 let name = row["name"]!  //var
                 let atomicMass = row["atomicMass"]! as NSString //var
                 let cpkColorHex = row["cpkColorHex"]!  //var
-                let electronConfig = row["electrionConfiguration"]!  //var
+                let electronConfig = row["electronConfiguration"]!  //var
                 let electronegativity = row["electronegativityPauling"]! //var
-                let atomicRadiusPM = row["atomicRadiusOM"]!  //var
+                let atomicRadiusPM = row["atomicRadiusPM"]!  //var
                 let ionRadiusInPM = row["ionRadiusInPM"]!  //var
                 let vanderWaals = row["vanderWaalsRadiusInPM"]! //var
                 let ie1inkjmol = row["IE-1inkJ/mol"]! //var
@@ -41,7 +41,7 @@ class elements {
                 let meltingPoint = row["meltingPointInK"]! //var
                 let boilingPoint = row["boilingPointInK"]! //var
                 let density = row["densityIng/mL"]! //var
-                let metalorNonmetal = row["metalorNonmetal"]!
+                let metalorNonmetal = Int(row["metalorNonmetal"]!)!
                 let yearDiscovered = row["yearDiscovered"]! //var
                 
                 let ele = element(atomicNumber: atomicNumber, symbol: symbol, name: name, atomicMass: atomicMass, cpk: cpkColorHex, elecCon: electronConfig, elecNeg: electronegativity as NSString, atomicRad: atomicRadiusPM as NSString, ionRadius: ionRadiusInPM as NSString, vanderWaals: vanderWaals as NSString, IE1: ie1inkjmol as NSString, EAi: eainkjmol as NSString, standard: standardStates, bonding: bondingType, meltingPoint: meltingPoint as NSString, boilingPoint: boilingPoint as NSString, density: density as NSString, metalNonMetal: metalorNonmetal, year: yearDiscovered)

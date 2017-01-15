@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D25FF6FD1E25EB4000EBE68D /* ElementCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF6FB1E25EB4000EBE68D /* ElementCollectionCell.swift */; };
+		D25FF6FE1E25EB4000EBE68D /* ElementCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D25FF6FC1E25EB4000EBE68D /* ElementCollectionCell.xib */; };
+		D25FF7001E28251400EBE68D /* ptdata2.csv in Resources */ = {isa = PBXBuildFile; fileRef = D25FF6FF1E28251400EBE68D /* ptdata2.csv */; };
+		D25FF7011E28251400EBE68D /* ptdata2.csv in Resources */ = {isa = PBXBuildFile; fileRef = D25FF6FF1E28251400EBE68D /* ptdata2.csv */; };
+		D25FF7021E28251400EBE68D /* ptdata2.csv in Resources */ = {isa = PBXBuildFile; fileRef = D25FF6FF1E28251400EBE68D /* ptdata2.csv */; };
+		D25FF7041E282DDB00EBE68D /* ptdatanospaces.csv in Resources */ = {isa = PBXBuildFile; fileRef = D25FF7031E282DDB00EBE68D /* ptdatanospaces.csv */; };
+		D25FF7051E282DDB00EBE68D /* ptdatanospaces.csv in Resources */ = {isa = PBXBuildFile; fileRef = D25FF7031E282DDB00EBE68D /* ptdatanospaces.csv */; };
+		D25FF7061E282DDB00EBE68D /* ptdatanospaces.csv in Resources */ = {isa = PBXBuildFile; fileRef = D25FF7031E282DDB00EBE68D /* ptdatanospaces.csv */; };
+		D25FF7091E28311E00EBE68D /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF7081E28311E00EBE68D /* UICollectionViewExtensions.swift */; };
+		D25FF70A1E28311E00EBE68D /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF7081E28311E00EBE68D /* UICollectionViewExtensions.swift */; };
+		D25FF70B1E28311E00EBE68D /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF7081E28311E00EBE68D /* UICollectionViewExtensions.swift */; };
+		D25FF70E1E2831A100EBE68D /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF70D1E2831A100EBE68D /* NibLoadableView.swift */; };
+		D25FF70F1E2831A100EBE68D /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF70D1E2831A100EBE68D /* NibLoadableView.swift */; };
+		D25FF7101E2831A100EBE68D /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF70D1E2831A100EBE68D /* NibLoadableView.swift */; };
+		D25FF7121E2831C500EBE68D /* ReuseableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF7111E2831C500EBE68D /* ReuseableView.swift */; };
+		D25FF7131E2831C500EBE68D /* ReuseableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF7111E2831C500EBE68D /* ReuseableView.swift */; };
+		D25FF7141E2831C500EBE68D /* ReuseableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF7111E2831C500EBE68D /* ReuseableView.swift */; };
+		D25FF7161E2C03D300EBE68D /* MolarMassElementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF7151E2C03D300EBE68D /* MolarMassElementVC.swift */; };
+		D25FF7171E2C03D300EBE68D /* MolarMassElementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF7151E2C03D300EBE68D /* MolarMassElementVC.swift */; };
+		D25FF7181E2C03D300EBE68D /* MolarMassElementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF7151E2C03D300EBE68D /* MolarMassElementVC.swift */; };
 		D2AF28891E2461D300BEF680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF28881E2461D300BEF680 /* AppDelegate.swift */; };
 		D2AF288B1E2461D300BEF680 /* MolarMassCalcVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF288A1E2461D300BEF680 /* MolarMassCalcVC.swift */; };
 		D2AF288E1E2461D300BEF680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AF288C1E2461D300BEF680 /* Main.storyboard */; };
@@ -18,7 +38,6 @@
 		D2AF28BA1E24671900BEF680 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF28B91E24671900BEF680 /* csv.swift */; };
 		D2AF28C61E246B0200BEF680 /* periodicTableOfElementsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF28C51E246B0200BEF680 /* periodicTableOfElementsData.swift */; };
 		D2AF28C81E246DD000BEF680 /* element.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF28C71E246DD000BEF680 /* element.swift */; };
-		D2AF28CA1E24887200BEF680 /* ptdata2.csv in Resources */ = {isa = PBXBuildFile; fileRef = D2AF28C91E24887200BEF680 /* ptdata2.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +58,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D25FF6FB1E25EB4000EBE68D /* ElementCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementCollectionCell.swift; sourceTree = "<group>"; };
+		D25FF6FC1E25EB4000EBE68D /* ElementCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ElementCollectionCell.xib; sourceTree = "<group>"; };
+		D25FF6FF1E28251400EBE68D /* ptdata2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ptdata2.csv; sourceTree = "<group>"; };
+		D25FF7031E282DDB00EBE68D /* ptdatanospaces.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ptdatanospaces.csv; sourceTree = "<group>"; };
+		D25FF7081E28311E00EBE68D /* UICollectionViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtensions.swift; sourceTree = "<group>"; };
+		D25FF70D1E2831A100EBE68D /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		D25FF7111E2831C500EBE68D /* ReuseableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReuseableView.swift; sourceTree = "<group>"; };
+		D25FF7151E2C03D300EBE68D /* MolarMassElementVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MolarMassElementVC.swift; sourceTree = "<group>"; };
 		D2AF28851E2461D300BEF680 /* ChemistToolKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChemistToolKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AF28881E2461D300BEF680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2AF288A1E2461D300BEF680 /* MolarMassCalcVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolarMassCalcVC.swift; sourceTree = "<group>"; };
@@ -56,7 +83,6 @@
 		D2AF28B91E24671900BEF680 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		D2AF28C51E246B0200BEF680 /* periodicTableOfElementsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = periodicTableOfElementsData.swift; sourceTree = "<group>"; };
 		D2AF28C71E246DD000BEF680 /* element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = element.swift; sourceTree = "<group>"; };
-		D2AF28C91E24887200BEF680 /* ptdata2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ptdata2.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +110,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D25FF6FA1E25EB0B00EBE68D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D25FF6FB1E25EB4000EBE68D /* ElementCollectionCell.swift */,
+				D25FF6FC1E25EB4000EBE68D /* ElementCollectionCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D25FF7071E28310600EBE68D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D25FF7081E28311E00EBE68D /* UICollectionViewExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		D25FF70C1E28318300EBE68D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D25FF70D1E2831A100EBE68D /* NibLoadableView.swift */,
+				D25FF7111E2831C500EBE68D /* ReuseableView.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
 		D2AF287C1E2461D300BEF680 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +159,9 @@
 		D2AF28871E2461D300BEF680 /* ChemistToolKit */ = {
 			isa = PBXGroup;
 			children = (
+				D25FF70C1E28318300EBE68D /* Protocols */,
+				D25FF7071E28310600EBE68D /* Extensions */,
+				D25FF6FA1E25EB0B00EBE68D /* View */,
 				D2AF28C41E24691C00BEF680 /* Model */,
 				D2AF28BF1E24682600BEF680 /* Controllers */,
 				D2AF28BB1E24671F00BEF680 /* resources */,
@@ -142,7 +197,8 @@
 			isa = PBXGroup;
 			children = (
 				D2AF28B91E24671900BEF680 /* csv.swift */,
-				D2AF28C91E24887200BEF680 /* ptdata2.csv */,
+				D25FF7031E282DDB00EBE68D /* ptdatanospaces.csv */,
+				D25FF6FF1E28251400EBE68D /* ptdata2.csv */,
 			);
 			name = resources;
 			sourceTree = "<group>";
@@ -151,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				D2AF288A1E2461D300BEF680 /* MolarMassCalcVC.swift */,
+				D25FF7151E2C03D300EBE68D /* MolarMassElementVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -277,8 +334,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25FF7041E282DDB00EBE68D /* ptdatanospaces.csv in Resources */,
 				D2AF28961E2461D300BEF680 /* LaunchScreen.storyboard in Resources */,
-				D2AF28CA1E24887200BEF680 /* ptdata2.csv in Resources */,
+				D25FF7001E28251400EBE68D /* ptdata2.csv in Resources */,
+				D25FF6FE1E25EB4000EBE68D /* ElementCollectionCell.xib in Resources */,
 				D2AF28931E2461D300BEF680 /* Assets.xcassets in Resources */,
 				D2AF288E1E2461D300BEF680 /* Main.storyboard in Resources */,
 			);
@@ -288,6 +347,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25FF7051E282DDB00EBE68D /* ptdatanospaces.csv in Resources */,
+				D25FF7011E28251400EBE68D /* ptdata2.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +356,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25FF7061E282DDB00EBE68D /* ptdatanospaces.csv in Resources */,
+				D25FF7021E28251400EBE68D /* ptdata2.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,12 +368,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25FF7091E28311E00EBE68D /* UICollectionViewExtensions.swift in Sources */,
 				D2AF28BA1E24671900BEF680 /* csv.swift in Sources */,
 				D2AF288B1E2461D300BEF680 /* MolarMassCalcVC.swift in Sources */,
+				D25FF70E1E2831A100EBE68D /* NibLoadableView.swift in Sources */,
 				D2AF28C61E246B0200BEF680 /* periodicTableOfElementsData.swift in Sources */,
 				D2AF28891E2461D300BEF680 /* AppDelegate.swift in Sources */,
+				D25FF6FD1E25EB4000EBE68D /* ElementCollectionCell.swift in Sources */,
+				D25FF7121E2831C500EBE68D /* ReuseableView.swift in Sources */,
 				D2AF28C81E246DD000BEF680 /* element.swift in Sources */,
 				D2AF28911E2461D300BEF680 /* ChemistToolKit.xcdatamodeld in Sources */,
+				D25FF7161E2C03D300EBE68D /* MolarMassElementVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +386,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25FF70F1E2831A100EBE68D /* NibLoadableView.swift in Sources */,
+				D25FF7131E2831C500EBE68D /* ReuseableView.swift in Sources */,
+				D25FF7171E2C03D300EBE68D /* MolarMassElementVC.swift in Sources */,
+				D25FF70A1E28311E00EBE68D /* UICollectionViewExtensions.swift in Sources */,
 				D2AF28A11E2461D300BEF680 /* ChemistToolKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,6 +398,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25FF7101E2831A100EBE68D /* NibLoadableView.swift in Sources */,
+				D25FF7141E2831C500EBE68D /* ReuseableView.swift in Sources */,
+				D25FF7181E2C03D300EBE68D /* MolarMassElementVC.swift in Sources */,
+				D25FF70B1E28311E00EBE68D /* UICollectionViewExtensions.swift in Sources */,
 				D2AF28AC1E2461D400BEF680 /* ChemistToolKitUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,6 +635,7 @@
 				D2AF28B21E2461D400BEF680 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2AF28B31E2461D400BEF680 /* Build configuration list for PBXNativeTarget "ChemistToolKitTests" */ = {
 			isa = XCConfigurationList;
@@ -567,6 +644,7 @@
 				D2AF28B51E2461D400BEF680 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2AF28B61E2461D400BEF680 /* Build configuration list for PBXNativeTarget "ChemistToolKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -575,6 +653,7 @@
 				D2AF28B81E2461D400BEF680 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

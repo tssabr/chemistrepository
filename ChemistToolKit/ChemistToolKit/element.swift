@@ -8,6 +8,19 @@
 
 import Foundation
 
+enum bgColorMetalorNonmetal: String {
+    case nonmetal = "nonmetal"
+    case nobleGas = "noble gas"
+    case alkaliMetal = "alkali metal"
+    case alkalineMetal = "alkaline metal"
+    case metalloid = "metalloid"
+    case halogen = "halogen"
+    case metal = "metal"
+    case transitionMetal = "transition metal"
+    case lanthanoid = "lanthanoid"
+    case actinoid = "actinoid"
+}
+
 
 struct element {
     //atomicNumber, symbol, name, atomicMass, cpkColorHex, electronConfiguration, electronegativityPauling, atomicRadiusPM, ionRadiusInPM, vanderWaalsRadiusInPM, IE-1inkJ/mol, EAinkJ/mol, oxidationStates, standardStates, bondingType, meltingPointInK, boilingPointInK, densityIng/mL, metalorNonmetal, yearDiscovered
@@ -31,7 +44,7 @@ struct element {
     fileprivate var _meltingPointInK: NSString!
     fileprivate var _boilingPointInK: NSString!
     fileprivate var _densityIngmL: NSString!
-    fileprivate var _metalorNonmetal: String!
+    fileprivate var _metalorNonmetal: bgColorMetalorNonmetal!
     fileprivate var _yearDiscovered: String!
     
     var atomicNumber: Int {
@@ -85,14 +98,14 @@ struct element {
     var densityIngml: NSString {
         return _densityIngmL
     }
-    var metalOrNonmetal: String {
+    var metalOrNonmetal: bgColorMetalorNonmetal {
         return _metalorNonmetal
     }
     var yearDiscovered: String {
         return _yearDiscovered
     }
     //atomicNumber, symbol, name, atomicMass, cpkColorHex, electronConfiguration, electronegativityPauling, atomicRadiusPM, ionRadiusInPM, vanderWaalsRadiusInPM, IE-1inkJ/mol, EAinkJ/mol, oxidationStates, standardStates, bondingType, meltingPointInK, boilingPointInK, densityIng/mL, metalorNonmetal, yearDiscovered
-    init(atomicNumber: Int, symbol: String, name: String, atomicMass: NSString, cpk: String, elecCon: String, elecNeg: NSString, atomicRad: NSString, ionRadius: NSString, vanderWaals: NSString, IE1: NSString, EAi: NSString, standard: String, bonding: String, meltingPoint: NSString, boilingPoint: NSString, density: NSString, metalNonMetal: String, year: String) {
+    init(atomicNumber: Int, symbol: String, name: String, atomicMass: NSString, cpk: String, elecCon: String, elecNeg: NSString, atomicRad: NSString, ionRadius: NSString, vanderWaals: NSString, IE1: NSString, EAi: NSString, standard: String, bonding: String, meltingPoint: NSString, boilingPoint: NSString, density: NSString, metalNonMetal: Int, year: String) {
         self._atomicNumber = atomicNumber
         self._symbol = symbol
         self._name = name
@@ -110,8 +123,30 @@ struct element {
         self._meltingPointInK = meltingPoint
         self._boilingPointInK = boilingPoint
         self._densityIngmL = density
-        self._metalorNonmetal = metalNonMetal
+        //self._metalorNonmetal = metalNonMetal
         self._yearDiscovered = year
+        switch metalNonMetal {
+        case 2:
+            self._metalorNonmetal = bgColorMetalorNonmetal.nobleGas
+        case 3:
+            self._metalorNonmetal = bgColorMetalorNonmetal.alkaliMetal
+        case 4:
+            self._metalorNonmetal = bgColorMetalorNonmetal.alkalineMetal
+        case 5:
+            self._metalorNonmetal = bgColorMetalorNonmetal.metalloid
+        case 6:
+            self._metalorNonmetal = bgColorMetalorNonmetal.halogen
+        case 7:
+            self._metalorNonmetal = bgColorMetalorNonmetal.metal
+        case 8:
+            self._metalorNonmetal = bgColorMetalorNonmetal.transitionMetal
+        case 9:
+            self._metalorNonmetal = bgColorMetalorNonmetal.lanthanoid
+        case 10:
+            self._metalorNonmetal = bgColorMetalorNonmetal.actinoid
+        default:
+            self._metalorNonmetal = bgColorMetalorNonmetal.nonmetal
+        }
     }
     
 }
