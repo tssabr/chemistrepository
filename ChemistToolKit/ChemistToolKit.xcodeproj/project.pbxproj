@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D21921D81E2F2AC300C456C0 /* Formula.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21921D71E2F2AC300C456C0 /* Formula.swift */; };
 		D25FF6FD1E25EB4000EBE68D /* ElementCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF6FB1E25EB4000EBE68D /* ElementCollectionCell.swift */; };
 		D25FF6FE1E25EB4000EBE68D /* ElementCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D25FF6FC1E25EB4000EBE68D /* ElementCollectionCell.xib */; };
 		D25FF7001E28251400EBE68D /* ptdata2.csv in Resources */ = {isa = PBXBuildFile; fileRef = D25FF6FF1E28251400EBE68D /* ptdata2.csv */; };
@@ -24,9 +25,12 @@
 		D25FF7121E2831C500EBE68D /* ReuseableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF7111E2831C500EBE68D /* ReuseableView.swift */; };
 		D25FF7131E2831C500EBE68D /* ReuseableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF7111E2831C500EBE68D /* ReuseableView.swift */; };
 		D25FF7141E2831C500EBE68D /* ReuseableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF7111E2831C500EBE68D /* ReuseableView.swift */; };
-		D25FF7161E2C03D300EBE68D /* MolarMassElementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF7151E2C03D300EBE68D /* MolarMassElementVC.swift */; };
-		D25FF7171E2C03D300EBE68D /* MolarMassElementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF7151E2C03D300EBE68D /* MolarMassElementVC.swift */; };
-		D25FF7181E2C03D300EBE68D /* MolarMassElementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF7151E2C03D300EBE68D /* MolarMassElementVC.swift */; };
+		D25FF71A1E2D7B7F00EBE68D /* MolarMassElementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF7191E2D7B7F00EBE68D /* MolarMassElementVC.swift */; };
+		D25FF71B1E2D7B7F00EBE68D /* MolarMassElementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF7191E2D7B7F00EBE68D /* MolarMassElementVC.swift */; };
+		D25FF71C1E2D7B7F00EBE68D /* MolarMassElementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF7191E2D7B7F00EBE68D /* MolarMassElementVC.swift */; };
+		D25FF7221E2DDC2400EBE68D /* MolarMassCalculatorClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF7211E2DDC2400EBE68D /* MolarMassCalculatorClass.swift */; };
+		D25FF7231E2DDC2400EBE68D /* MolarMassCalculatorClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF7211E2DDC2400EBE68D /* MolarMassCalculatorClass.swift */; };
+		D25FF7241E2DDC2400EBE68D /* MolarMassCalculatorClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF7211E2DDC2400EBE68D /* MolarMassCalculatorClass.swift */; };
 		D2AF28891E2461D300BEF680 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF28881E2461D300BEF680 /* AppDelegate.swift */; };
 		D2AF288B1E2461D300BEF680 /* MolarMassCalcVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF288A1E2461D300BEF680 /* MolarMassCalcVC.swift */; };
 		D2AF288E1E2461D300BEF680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AF288C1E2461D300BEF680 /* Main.storyboard */; };
@@ -58,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D21921D71E2F2AC300C456C0 /* Formula.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formula.swift; sourceTree = "<group>"; };
 		D25FF6FB1E25EB4000EBE68D /* ElementCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementCollectionCell.swift; sourceTree = "<group>"; };
 		D25FF6FC1E25EB4000EBE68D /* ElementCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ElementCollectionCell.xib; sourceTree = "<group>"; };
 		D25FF6FF1E28251400EBE68D /* ptdata2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ptdata2.csv; sourceTree = "<group>"; };
@@ -65,7 +70,8 @@
 		D25FF7081E28311E00EBE68D /* UICollectionViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtensions.swift; sourceTree = "<group>"; };
 		D25FF70D1E2831A100EBE68D /* NibLoadableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
 		D25FF7111E2831C500EBE68D /* ReuseableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReuseableView.swift; sourceTree = "<group>"; };
-		D25FF7151E2C03D300EBE68D /* MolarMassElementVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MolarMassElementVC.swift; sourceTree = "<group>"; };
+		D25FF7191E2D7B7F00EBE68D /* MolarMassElementVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MolarMassElementVC.swift; sourceTree = "<group>"; };
+		D25FF7211E2DDC2400EBE68D /* MolarMassCalculatorClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MolarMassCalculatorClass.swift; sourceTree = "<group>"; };
 		D2AF28851E2461D300BEF680 /* ChemistToolKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChemistToolKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AF28881E2461D300BEF680 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2AF288A1E2461D300BEF680 /* MolarMassCalcVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolarMassCalcVC.swift; sourceTree = "<group>"; };
@@ -207,7 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				D2AF288A1E2461D300BEF680 /* MolarMassCalcVC.swift */,
-				D25FF7151E2C03D300EBE68D /* MolarMassElementVC.swift */,
+				D25FF7191E2D7B7F00EBE68D /* MolarMassElementVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -217,6 +223,8 @@
 			children = (
 				D2AF28C51E246B0200BEF680 /* periodicTableOfElementsData.swift */,
 				D2AF28C71E246DD000BEF680 /* element.swift */,
+				D25FF7211E2DDC2400EBE68D /* MolarMassCalculatorClass.swift */,
+				D21921D71E2F2AC300C456C0 /* Formula.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -372,13 +380,15 @@
 				D2AF28BA1E24671900BEF680 /* csv.swift in Sources */,
 				D2AF288B1E2461D300BEF680 /* MolarMassCalcVC.swift in Sources */,
 				D25FF70E1E2831A100EBE68D /* NibLoadableView.swift in Sources */,
+				D25FF7221E2DDC2400EBE68D /* MolarMassCalculatorClass.swift in Sources */,
 				D2AF28C61E246B0200BEF680 /* periodicTableOfElementsData.swift in Sources */,
 				D2AF28891E2461D300BEF680 /* AppDelegate.swift in Sources */,
 				D25FF6FD1E25EB4000EBE68D /* ElementCollectionCell.swift in Sources */,
 				D25FF7121E2831C500EBE68D /* ReuseableView.swift in Sources */,
 				D2AF28C81E246DD000BEF680 /* element.swift in Sources */,
 				D2AF28911E2461D300BEF680 /* ChemistToolKit.xcdatamodeld in Sources */,
-				D25FF7161E2C03D300EBE68D /* MolarMassElementVC.swift in Sources */,
+				D25FF71A1E2D7B7F00EBE68D /* MolarMassElementVC.swift in Sources */,
+				D21921D81E2F2AC300C456C0 /* Formula.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,8 +398,9 @@
 			files = (
 				D25FF70F1E2831A100EBE68D /* NibLoadableView.swift in Sources */,
 				D25FF7131E2831C500EBE68D /* ReuseableView.swift in Sources */,
-				D25FF7171E2C03D300EBE68D /* MolarMassElementVC.swift in Sources */,
+				D25FF71B1E2D7B7F00EBE68D /* MolarMassElementVC.swift in Sources */,
 				D25FF70A1E28311E00EBE68D /* UICollectionViewExtensions.swift in Sources */,
+				D25FF7231E2DDC2400EBE68D /* MolarMassCalculatorClass.swift in Sources */,
 				D2AF28A11E2461D300BEF680 /* ChemistToolKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,8 +411,9 @@
 			files = (
 				D25FF7101E2831A100EBE68D /* NibLoadableView.swift in Sources */,
 				D25FF7141E2831C500EBE68D /* ReuseableView.swift in Sources */,
-				D25FF7181E2C03D300EBE68D /* MolarMassElementVC.swift in Sources */,
+				D25FF71C1E2D7B7F00EBE68D /* MolarMassElementVC.swift in Sources */,
 				D25FF70B1E28311E00EBE68D /* UICollectionViewExtensions.swift in Sources */,
+				D25FF7241E2DDC2400EBE68D /* MolarMassCalculatorClass.swift in Sources */,
 				D2AF28AC1E2461D400BEF680 /* ChemistToolKitUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -18,9 +18,11 @@ class MolarMassCalcVC: UIViewController {
     var periodicTable = elements.instance
     var inSearchMode = false
     var filteredElements = [elements]()
+    var formulaclass = Formula.instance
     
     @IBAction func deleteButtonPressed(_ sender: Any) {
-        
+        formulaclass.deleteElement()
+        formulaclass.calculateMolarMass()
     }
     @IBAction func backButtonPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
@@ -36,6 +38,8 @@ class MolarMassCalcVC: UIViewController {
         let nib = UINib(nibName: "ElementCollectionCell", bundle: nil)
         collectionView.register(nib, forCellWithReuseIdentifier: "ElementCollectionCell")
         collectionView.reloadData()
+        formula.text = formulaclass.formulaString
+        molarMass.text = "\(formulaclass.molarMass)"
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -96,11 +100,24 @@ extension MolarMassCalcVC: UICollectionViewDelegate, UICollectionViewDataSource,
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        //prepare for segue that shows +, - number of element in molecule
-        
+        let elem = periodicTable.elementArray[indexPath.row]
+        performSegue(withIdentifier: "MolarMassElementVC", sender: elem)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: 60, height: 60)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "MolarMassElementVC" {
+            if let detailsVC = segue.destination as? MolarMassElementVC {
+                if let elem = sender as? element {
+                    detailsVC.eleName = elem.name
+                    detailsVC.molarMass = elem.atomicMass
+                    detailsVC.eleSymbol = elem.symbol
+                }
+            }
+        }
+        
     }
 }
