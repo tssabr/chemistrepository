@@ -104,6 +104,10 @@ struct element {
     var yearDiscovered: String {
         return _yearDiscovered
     }
+    
+    var molarMassCalculatorNumberOf: Double = 0.0
+    
+    
     //atomicNumber, symbol, name, atomicMass, cpkColorHex, electronConfiguration, electronegativityPauling, atomicRadiusPM, ionRadiusInPM, vanderWaalsRadiusInPM, IE-1inkJ/mol, EAinkJ/mol, oxidationStates, standardStates, bondingType, meltingPointInK, boilingPointInK, densityIng/mL, metalorNonmetal, yearDiscovered
     init(atomicNumber: Int, symbol: String, name: String, atomicMass: NSString, cpk: String, elecCon: String, elecNeg: NSString, atomicRad: NSString, ionRadius: NSString, vanderWaals: NSString, IE1: NSString, EAi: NSString, standard: String, bonding: String, meltingPoint: NSString, boilingPoint: NSString, density: NSString, metalNonMetal: Int, year: String) {
         self._atomicNumber = atomicNumber

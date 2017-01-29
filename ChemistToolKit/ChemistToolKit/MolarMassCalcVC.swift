@@ -18,11 +18,11 @@ class MolarMassCalcVC: UIViewController {
     var periodicTable = elements.instance
     var inSearchMode = false
     var filteredElements = [elements]()
-    var formulaclass = Formula.instance
+    var formulaClass = Formula.instance
     
     @IBAction func deleteButtonPressed(_ sender: Any) {
-        formulaclass.deleteElement()
-        formulaclass.calculateMolarMass()
+        formulaClass.deleteElement()
+        formulaClass.calculateMolarMass()
     }
     @IBAction func backButtonPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
@@ -38,8 +38,8 @@ class MolarMassCalcVC: UIViewController {
         let nib = UINib(nibName: "ElementCollectionCell", bundle: nil)
         collectionView.register(nib, forCellWithReuseIdentifier: "ElementCollectionCell")
         collectionView.reloadData()
-        formula.text = formulaclass.formulaString
-        molarMass.text = "\(formulaclass.molarMass)"
+        formula.text = formulaClass.formulaString
+        molarMass.text = "\(formulaClass.molarMass)"
         // Do any additional setup after loading the view, typically from a nib.
     }
 

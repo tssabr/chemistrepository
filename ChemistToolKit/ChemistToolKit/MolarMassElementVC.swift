@@ -15,6 +15,8 @@ class MolarMassElementVC: UIViewController {
     var molarMass: NSString!
     var currentNumber: Double = 0.0
     var calculator = MolarMassCalculatorClass.instance
+    var previousVC = MolarMassElementVC.self
+    
     
     @IBOutlet weak var elementName: UILabel!
     @IBOutlet weak var numberLabel: UILabel!
@@ -23,7 +25,6 @@ class MolarMassElementVC: UIViewController {
         super.viewDidLoad()
         numberLabel.text = "\(calculator.currentNumber)"
         elementName.text = eleName
-
         // Do any additional setup after loading the view.
     }
     
@@ -37,7 +38,6 @@ class MolarMassElementVC: UIViewController {
         let newValue = calculator.subNumber(prevNum: calculator.currentNumber)
         currentNumber = newValue
         numberLabel.text = "\(currentNumber)"
-        
     }
     
     @IBAction func clearButtonPressed(_ sender: UIButton) {

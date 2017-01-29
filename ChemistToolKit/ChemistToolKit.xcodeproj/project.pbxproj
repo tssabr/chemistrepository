@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D21921D81E2F2AC300C456C0 /* Formula.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21921D71E2F2AC300C456C0 /* Formula.swift */; };
+		D21921DB1E3323C700C456C0 /* Formula.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21921D71E2F2AC300C456C0 /* Formula.swift */; };
 		D25FF6FD1E25EB4000EBE68D /* ElementCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25FF6FB1E25EB4000EBE68D /* ElementCollectionCell.swift */; };
 		D25FF6FE1E25EB4000EBE68D /* ElementCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D25FF6FC1E25EB4000EBE68D /* ElementCollectionCell.xib */; };
 		D25FF7001E28251400EBE68D /* ptdata2.csv in Resources */ = {isa = PBXBuildFile; fileRef = D25FF6FF1E28251400EBE68D /* ptdata2.csv */; };
@@ -376,6 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D21921DB1E3323C700C456C0 /* Formula.swift in Sources */,
 				D25FF7091E28311E00EBE68D /* UICollectionViewExtensions.swift in Sources */,
 				D2AF28BA1E24671900BEF680 /* csv.swift in Sources */,
 				D2AF288B1E2461D300BEF680 /* MolarMassCalcVC.swift in Sources */,
@@ -388,7 +389,6 @@
 				D2AF28C81E246DD000BEF680 /* element.swift in Sources */,
 				D2AF28911E2461D300BEF680 /* ChemistToolKit.xcdatamodeld in Sources */,
 				D25FF71A1E2D7B7F00EBE68D /* MolarMassElementVC.swift in Sources */,
-				D21921D81E2F2AC300C456C0 /* Formula.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
